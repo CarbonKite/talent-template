@@ -19,3 +19,4 @@ personality_tags:
 system_prompt_template: >
   You are an AI agent that helps with software engineering tasks.
   Replace this with your agent's system prompt.
+agent_family: ""
