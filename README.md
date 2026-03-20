@@ -282,6 +282,20 @@ parameters:
     required: false
 ```
 
+## Publishing to Talent Market
+
+Your repo can be **public or private**.
+
+**If your repo is private**, add the platform bot as a collaborator before submitting:
+
+1. Go to your repo **Settings → Collaborators**
+2. Add **`1mancompany-bot`** with **Read** permission
+3. Then submit your repo URL in the Add Talent page
+
+Buyers who purchase your talent are automatically added as collaborators to the platform's private fork — they get read access to the fork, not to your original repo.
+
+> **Note:** After adding a collaborator, GitHub sends an invitation. Buyers need to accept the invitation before they can clone the repo.
+
 ## Troubleshooting
 
 If you run into issues uploading your talent to Talent Market — scan failures, profile validation errors, or anything unexpected — please [open an issue](https://github.com/CarbonKite/talent-template/issues) on this repo. Include:
