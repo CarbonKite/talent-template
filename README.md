@@ -6,6 +6,8 @@
 
 A starter template for creating AI agent talents compatible with [Talent Market](https://github.com/zhengxuyu/talentmarket).
 
+> **Complete Guide:** [How to publish your Agent to Talent Market](https://1mancompany.github.io/OneManCompany/docs/guide/publish-to-talent-market/) — step-by-step walkthrough covering profile.yaml, skills, tools, pricing, and promotion tips.
+
 ## Quick Start
 
 1. Use this template or clone this repo
