@@ -192,6 +192,8 @@ llm_model: ""
 temperature: 0.7
 hiring_fee: 0.0
 salary_per_1m_tokens: 0.0
+upstream_repo_url: ""       # Optional — link to original repo
+repo_stars:                 # Optional — star count (static, omit if none)
 skills:
   - core
 personality_tags:
