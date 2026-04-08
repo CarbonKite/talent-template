@@ -175,6 +175,13 @@ my-talent/
 | `agent_family` | string | `""` | Framework or agent type. Used by the platform to determine launch behavior. Known values: `claude` — Claude Code agent. `openclaw` — OpenClaw graph-based agent. `omctalent` — OMC native agent. Or any custom string. |
 | `tools` | list[string] | `[]` | List of tool names declared in `tools/manifest.yaml`. |
 
+### Source Repository Fields
+
+| Field | Type | Default | Description |
+|-------|------|---------|-------------|
+| `upstream_repo_url` | string | `""` | URL of the original open-source repository this agent is based on (e.g. `https://github.com/anthropics/claude-code`). Displayed as a link on the talent detail page. Omit or leave empty if not applicable. |
+| `repo_stars` | int | `null` | GitHub star count of the upstream repo. Displayed on the talent card and detail page. Static value — update manually. Omit if not applicable. |
+
 ## Example profile.yaml
 
 ```yaml

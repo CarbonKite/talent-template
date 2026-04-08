@@ -88,6 +88,8 @@ llm_model: ""
 temperature: 0.7
 hiring_fee: 0.0
 salary_per_1m_tokens: 0.0
+# upstream_repo_url: https://github.com/org/repo  # Optional — link to original repo
+# repo_stars: 0                                     # Optional — star count (static)
 skills:
   - core
 personality_tags:
@@ -147,6 +149,8 @@ The `avatar` field points to an **image file** in the talent directory. It is th
 |-------|------|
 | `personality_tags` | 2-5 tags from the Personality Tags list below |
 | `tools` | List of tool names if the agent has tools |
+| `upstream_repo_url` | URL of the original repo this agent is based on (if applicable) |
+| `repo_stars` | GitHub star count of the upstream repo (static, omit if none) |
 
 ---
 
@@ -510,6 +514,8 @@ llm_model: ""
 temperature: 0.7
 hiring_fee: 0.0
 salary_per_1m_tokens: 0.0
+# upstream_repo_url: https://github.com/org/seo-agent  # Optional — link to original repo
+# repo_stars: 500                                        # Optional — star count (static)
 skills:
   - core
 personality_tags:
